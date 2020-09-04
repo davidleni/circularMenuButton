@@ -1,0 +1,277 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/*The Main Container of all elements*/
+#menuDiscContainer {
+    width: 195px;
+    height: 195px;
+    border: 0px solid red;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+/*The Main Container of all elements*/
+
+/*link*/
+.anchor {
+    text-decoration: none;
+}
+/*link*/
+
+
+/*First line start*/
+/*---------------------------------------------------------------------------------------------*/
+#menuDiscButton1 {
+    width: 61px;
+    height: 61px;
+    opacity: 0;
+    position: relative;
+    left: 65px;
+    bottom: -65px;
+    border: 2px solid rgba(235, 174, 9, 0.473);
+    background-color: darkslategray;
+    border-top-left-radius: 34.5px;
+    border-bottom-right-radius: 37px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    -webkit-animation-name: AnimatedButton1;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: AnimatedButton1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+    }
+#home {
+    margin-top: 16px;
+    margin-left: 16px; 
+}
+#menuDiscButton1:hover {
+    background-color: brown;
+}
+    @keyframes AnimatedButton1{
+        from{left:65px; bottom:-65px; opacity: 0;}
+        to{left:25px; bottom:-25px; opacity: 1;}
+    }
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#menuDiscButton2 {
+    width: 65px;
+    height: 65px;
+    border: 0px solid black;
+    }
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#menuDiscButton3 {
+    width: 61px;
+    height: 61px;
+    opacity: 0;
+    position: relative;
+    right: 65px;
+    bottom: -65px;
+    border: 2px solid rgba(235, 174, 9, 0.473);
+    background-color: darkslategray;
+    border-top-right-radius: 34.5px;
+    border-bottom-left-radius: 37px;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    -webkit-animation-name: AnimatedButton2;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: AnimatedButton2;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+    }
+#projects {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+#menuDiscButton3:hover {
+    background-color: brown;
+}
+@keyframes AnimatedButton2{
+    from{right:65px; bottom:-65px; opacity: 0;}
+    to{right:25px; bottom:-25px; opacity: 1;}
+}
+/*---------------------------------------------------------------------------------------------*/
+
+#menuDiscButton1, #menuDiscButton2, #menuDiscButton3 {
+    display: none;
+    float: left;
+}
+
+/*First line end*/
+
+
+/*Second line start*/
+/*---------------------------------------------------------------------------------------------*/
+#menuDiscButton4 {
+    width: 65px;
+    height: 65px;
+    display: none;
+    border: 0px solid black;
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#menuDiscMainButton {
+    width: 65px;
+    height: 65px;
+    display: block;
+    position: relative;
+    left: 65px;
+    top: 65px;
+    z-index: 1;
+    border-radius: 32.5px;
+    background-color: darkslategray;
+    text-align: center;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+#menuDiscMainButtonText {
+    margin-top: 23px;
+    color: #FAFAFA;
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#menuDiscButton5 {
+    width: 65px;
+    height: 65px;
+    display: none;
+    border: 0px solid black;
+}
+/*---------------------------------------------------------------------------------------------*/
+
+#menuDiscButton4, #menuDiscMainButton, #menuDiscButton5 {
+    float: left;
+}
+/*Second line end*/
+
+/*Third line start*/
+/*---------------------------------------------------------------------------------------------*/
+#menuDiscButton6 {
+    width: 61px;
+    height: 61px;
+    opacity: 0;
+    position: relative;
+    left: 65px;
+    top: -65px;
+    border: 2px solid rgba(235, 174, 9, 0.473);
+    background-color: darkslategray;
+    border-bottom-left-radius: 34.5px;
+    border-top-right-radius: 37px;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    -webkit-animation-name: AnimatedButton6;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: AnimatedButton6;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+     -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+#courses {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+#menuDiscButton6:hover {
+    background-color: brown;
+}
+@keyframes AnimatedButton6{
+    from{left:65px; top:-65px; opacity: 0;}
+    to{left:25px; top:-25px; opacity: 1;}
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#menuDiscButton7 {
+    width: 65px;
+    height: 65px;
+    border: 0px solid black;
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+#menuDiscButton8 {
+    width: 61px;
+    height: 61px;
+    opacity: 0;
+    position: relative;
+    right: 65px;
+    bottom: 65px;
+    border: 2px solid rgba(235, 174, 9, 0.473);
+    background-color: darkslategray;
+    border-bottom-right-radius: 34.5px;
+    border-top-left-radius: 37px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    -webkit-animation-name: AnimatedButton8;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: AnimatedButton8;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+#apps {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+#menuDiscButton8:hover {
+    background-color: brown;
+}
+@keyframes AnimatedButton8{
+    from{right:65px; bottom:65px; opacity: 0;}
+    to{right:25px; bottom:25px; opacity: 1;}
+}
+/*---------------------------------------------------------------------------------------------*/
+
+#menuDiscButton6, #menuDiscButton7, #menuDiscButton8 {
+    display: none;
+    float: left;
+}
+/*Third line end*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

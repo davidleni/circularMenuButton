@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A new design of an animated circular menu button 2020-2021, 
+    a circular menu button when clicked the menu start appears as separate elements 
+    from different directions.">
+    <title>A new design of an animated circular menu button 2020-2021</title>
+    <link rel="stylesheet" type="text/css" href="menuDiscCss/menuDiscCss.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Click on the button bellow to test it</h1>
+    <div id="menuDiscContainer">
+        <a class="anchor" href="#home"><div id="menuDiscButton1" onmousemove="homePage()" onmouseout="menuButton()"><img id="home" src="menuDiscLogos/home.gif"></div></a>
+        <div id="menuDiscButton2"></div>
+        <a class="anchor" href="#projects"><div id="menuDiscButton3" onmousemove="projectsPage()" onmouseout="menuButton()"><img id="projects" src="menuDiscLogos/projects.gif"></div></a>
+
+        <div id="menuDiscButton4"></div>
+        <div id="menuDiscMainButton" onclick="hideAndShow()"><p id="menuDiscMainButtonText">Menu</p></div>
+        <div id="menuDiscButton5"></div>
+        
+        <a class="anchor" href="#courses"><div id="menuDiscButton6" onmousemove="coursesPage()" onmouseout="menuButton()"><img id="courses" src="menuDiscLogos/courses.gif"></div></a>
+        <div id="menuDiscButton7"></div>
+        <a class="anchor" href="#apps"><div id="menuDiscButton8" onmousemove="appsPage()"  onmouseout="menuButton()"><img id="apps" src="menuDiscLogos/apps.gif"></div></a>
+        </div>
+    </div>
+    <div style="height: 30px; width:600px; border: 0px solid rgb(83, 83, 88); position: static;
+    margin-left: auto; margin-right: auto;">
+    <a href="https://www.youtube.com/channel/UCC1YEU0yu-o0Q6k5VmhsCaQ" style="text-decoration: none;"><div style="width: 200px; height: 30px; position: relative; left: 0px; top: 0px; float: left; border-top-left-radius: 15px; border-bottom-left-radius: 15px; background-color: #f52323; color:#FAFAFA; font-size:25px; text-align: center;">YouTube Channel</div></a>
+    <a href="https://codepen.io/my_code_on_youtube/pen/qBZVoZR" style="text-decoration: none;"><div style="width: 200px; height: 30px; position: relative; left: 0px; top: 0px; float: left; background-color: #24292e; color:#FAFAFA; font-size:25px; text-align: center;">Codepen</div></a>
+    <a href="https://github.com/davidleni" style="text-decoration: none;"><div style="width: 200px; height: 30px; position: relative; left: 0px; top: 0px; float: left; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #2ebc4f; color:#FAFAFA; font-size:25px; text-align: center;">Github Profile</div></a>
+    </div>
+    <div style="width: 600px; height: 40px; border: 1px solid red; text-align: center; margin-top: 50px;
+    margin-bottom: 50px; margin-left: auto; margin-right: auto;">
+        A new design of an animated circular menu button 2020-2021, 
+        a circular menu button when clicked the menu start appears as separate elements 
+        from different directions.
+    </div>
+
+    <script src="menuDiscJs/menuDiscJs.js"></script>
+</body>
+</html>
